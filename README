@@ -1,5 +1,11 @@
-A quick and surprisingly not-so-dirty proof-of-concept for hermes[^1] and
-his tricks[^2].
+A quick proof-of-concept for hermes[^1] and tricks[^2].  Intended to reside
+within the hermes directory, alongside tricks:
 
-[^1]: http://github.com/benjamn/hermes
-[^2]: http://github.com/benjamn/tricks
+  hermes
+    curator.py
+    tricks
+    wry
+      testpages
+
+[1]: http://github.com/benjamn/hermes
+[2]: http://github.com/benjamn/tricks
