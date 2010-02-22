@@ -1,0 +1,6 @@
+- Revisit infertility.
+- Lift Locations to common ancestor, merge serialization to save URL length.
+- Cooperate with existing document fragments?
+- Create proper development/stage/production environment.
+- Investigate infrastructure requirements for ever.wry.ly.
+- Compile diverse pageset, or fake one, and write thorough tests.
