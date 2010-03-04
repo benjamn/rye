@@ -9,7 +9,7 @@ var Selection = require("tricks/dom/selection").Selection,
     
 if (splat.length > 1)
     whenReady(function() {
-        var sel = Selection.fromString(splat.pop());
+        var sel = Selection.fromString(decodeURIComponent(splat.pop()));
         if (sel) {
             sel.wrap(styles);
             setTimeout(function() {
@@ -24,7 +24,7 @@ addEvent(document, "mouseup", function() {
         var splat = location.href.split("#");
         if (splat.length > 1)
             splat.pop();
-        splat.push(sel.toString());
+        splat.push(encodeURIComponent(sel.toString()));
         location = splat.join("#");
         sel.wrap(styles, true);
     }
