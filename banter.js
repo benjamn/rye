@@ -3,6 +3,7 @@ var Selection = require("tricks/dom/selection").Selection,
     addEvent = require("tricks/dom/events").addEvent,
     splat = location.href.split("#"),
     styles = {
+        color: "#000",
         background: "lightgreen",
         padding: "2px 0 3px 0"
     };
